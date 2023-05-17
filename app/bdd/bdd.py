@@ -16,7 +16,7 @@ users: list[User] = [
         "age": 21,
         "email": "leo.D@gmail.com",
         "tel": "06123456789",
-        "enterprise": 1,
+        "entreprise": 1,
         "password": "f2d81a260dea8a100dd517984e53c56a7523d96942a834b9cdc249bd4e8c7aa9",
     },
     {
@@ -27,7 +27,7 @@ users: list[User] = [
         "age": 12,
         "email": "leo.D@gmail.com",
         "tel": "06123456789",
-        "enterprise": 2,
+        "entreprise": 2,
         "password": "f2d81a260dea8a100dd517984e53c56a7523d96942a834b9cdc249bd4e8c7aa9",
     },
     {
@@ -38,7 +38,7 @@ users: list[User] = [
         "age": 25,
         "email": "leo.D@gmail.com",
         "tel": "06123456789",
-        "enterprise": 1,
+        "entreprise": 1,
         "password": "f2d81a260dea8a100dd517984e53c56a7523d96942a834b9cdc249bd4e8c7aa9",
     }
 ]

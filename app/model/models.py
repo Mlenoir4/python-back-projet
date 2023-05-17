@@ -14,7 +14,7 @@ class User(BaseModel):
     age: int
     email: str
     tel: str
-    enterprise: int
+    entreprise: int
 
 
 class Enterprise(BaseModel):

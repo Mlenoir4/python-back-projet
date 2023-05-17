@@ -29,7 +29,6 @@ def initUsers():
 async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     hashed_password = hash_password(form_data.password)
     for user in users:
-        print(user["name"])
         if user["name"].lower() == form_data.username.lower():
             if hashed_password == user["password"]:
                 data = dict()
