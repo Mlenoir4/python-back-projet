@@ -1,4 +1,4 @@
-# projectPythonBack
+# ProjectPythonBack
 
 ## Installation
 
@@ -17,13 +17,14 @@ Then, run the app:
 
 ## Usage
     - Pour utiliser l'application il suffit de se rendre sur l'adresse suivante : http://localhost:80/docs.
-    - Vous n'aurez pas acces au differentes routes si vous n'etes pas connecté. Pour cela, il faut cliquer sur le bouton Authorize en haut à droite de la page.
+    - Vous n'aurez pas acces au differentes routes si vous n'etes pas connecté. 
+      Pour cela, il faut cliquer sur le bouton Authorize en haut à droite de la page.
     - Renter les information de connection d'un utilisateur valide (Voir la section Test pour plus d'information).
     - Une fois connecté vous pourrez selon le role attribuer à votre utilisateur, acceder aux differentes fonctionnalitées de l'application.
     - Pour tester les routes, il suffit de cliquer sur la route souhaitée et de cliquer sur le bouton "Try it out" en bas à droite de la page.
-    - Vous pouvez ensuite rentrer les parametres de la requete et cliquer sur le bouton "Execute" pour envoyer la requete. Vous pouvez aussi tester les routes avec un logiciel comme Postman.
+    - Vous pouvez ensuite rentrer les parametres de la requete et cliquer sur le bouton "Execute" pour envoyer la requete. 
+      Vous pouvez aussi tester les routes avec un logiciel comme Postman.
     - Pour plus d'information sur les routes, vous pouvez vous rendre sur la page http://localhost:80/redoc.
-    - Pour plus d'information sur les models, vous pouvez vous rendre sur la page http://localhost:80/docs#/models.
 
 
 
@@ -37,6 +38,6 @@ Then, run the app:
         - username : admin
         - password : azerty
 
-    - Information de connection d'un maintainer valdie :
+    - Information de connection d'un maintainer valide :
         - username : user
         - password : azerty
