@@ -18,7 +18,7 @@ class User(BaseModel):
 
 
 class Enterprise(BaseModel):
-    id: int
+    __id: int
     name: str
     location: str
     email: str

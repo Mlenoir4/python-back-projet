@@ -2,14 +2,14 @@
 from typing import Annotated
 
 # Libs Imports
-from fastapi import Depends, FastAPI, HTTPException, status, APIRouter
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from pydantic import BaseModel
+from fastapi import Depends, HTTPException, status, APIRouter
+from fastapi.security import OAuth2PasswordBearer
 from jose import jwt, JWTError
-from model.models import User
 import hashlib
 
 # Local Imports
+from model.models import User
+
 
 router = APIRouter()
 
@@ -33,9 +33,3 @@ async def decode_token(token: Annotated[str, Depends(oauth2_scheme)]) -> User:
     except JWTError:
         return credentials_exception
     return decoded
-
-
-
-@router.get("/items/")
-async def read_items(user: Annotated[User, Depends(decode_token)]):
-    return {"user": user}
